@@ -11,7 +11,7 @@ package com.mycompany;
 public class Banco {
     
     public static void main(String[] args) {
-        Usuario usuario =new Usuario("denisse", 6000.0);
+        Usuario usuario =new Usuario("Perla", 6000.0);
         CajeroAutomatico cajero = new CajeroAutomatico();
 
         System.out.println("Saldo inicial: " + cajero.consultarSaldo(usuario));
