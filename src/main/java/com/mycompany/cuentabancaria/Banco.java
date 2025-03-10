@@ -6,17 +6,17 @@ package com.mycompany;
 
 /**
  *
- * @author Perla
+ * @author Denisse
  */
 public class Banco {
     
     public static void main(String[] args) {
-        Usuario usuario =new Usuario("Perla", 6000.0);
+        Usuario usuario =new Usuario("Denisse", 1000.0);
         CajeroAutomatico cajero = new CajeroAutomatico();
 
         System.out.println("Saldo inicial: " + cajero.consultarSaldo(usuario));
 
-        cajero.depositar(usuario, 300.0);
+        cajero.depositar(usuario, 500.0);
         System.out.println("Saldo después de depositar 600: " + cajero.consultarSaldo(usuario));
 
         if (cajero.retirar(usuario, 300.0)) {
