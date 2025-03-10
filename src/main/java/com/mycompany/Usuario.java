@@ -8,7 +8,7 @@ import com.mycompany.cuentabancaria.CuentaBancaria;
 
 /**
  *
- * @author Perla Díaz 
+ * @author Denisse
  */
 public class Usuario {
     
