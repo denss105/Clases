@@ -6,18 +6,18 @@ package com.mycompany;
 
 /**
  *
- * @author Denisse
+ * @author Perla Díaz 
  */
 public class Banco {
     
     public static void main(String[] args) {
-        Usuario usuario =new Usuario("denisse", 1000.0);
+        Usuario usuario =new Usuario("denisse", 6000.0);
         CajeroAutomatico cajero = new CajeroAutomatico();
 
         System.out.println("Saldo inicial: " + cajero.consultarSaldo(usuario));
 
-        cajero.depositar(usuario, 500.0);
-        System.out.println("Saldo después de depositar 500: " + cajero.consultarSaldo(usuario));
+        cajero.depositar(usuario, 300.0);
+        System.out.println("Saldo después de depositar 600: " + cajero.consultarSaldo(usuario));
 
         if (cajero.retirar(usuario, 300.0)) {
             System.out.println("Retiro exitoso. Saldo actual: " + cajero.consultarSaldo(usuario));
