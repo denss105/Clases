@@ -6,7 +6,7 @@ package com.mycompany.cuentabancaria;
 
 /**
  *
- * @author Perla Díaz 
+ * @author Denisse
  */
 public class CuentaBancaria {
 
